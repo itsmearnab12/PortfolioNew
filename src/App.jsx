@@ -1,4 +1,6 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
+import { Header } from './Components/Header';
+
 import { HomePage } from './Pages/HomePage';
 import { AboutPage } from './Pages/AboutPage';
 import { ProjectPage } from './Pages/ProjectPage';
@@ -10,14 +12,18 @@ import './App.css'
 function App() {
 
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />}></Route>
-      <Route path="/About" element={<AboutPage />}></Route>
-      <Route path="/Project" element={<ProjectPage />}></Route>
-      <Route path="/Experience" element={<ExperiencePage />}></Route>
-      <Route path="/Certificate" element={<CertificatePage />}></Route>
-      <Route path="/Contact" element={<ContactPage />}></Route>
-    </Routes>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/About" element={<AboutPage />}></Route>
+        <Route path="/Project" element={<ProjectPage />}></Route>
+        <Route path="/Experience" element={<ExperiencePage />}></Route>
+        <Route path="/Certificate" element={<CertificatePage />}></Route>
+        <Route path="/Contact" element={<ContactPage />}></Route>
+      </Routes>
+    </>
+
   )
 }
 

@@ -1,0 +1,58 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin: 12px auto;
+    padding: 8px 18px;
+    max-width: 1100px;
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.LeftNavbar,
+.RightNavbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.LeftNavbar h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.RightNavbar span {
+    display: inline-flex;
+    align-items: center;
+    color: #22c55e;
+    background-color: #22c55e1a;
+    padding: 5px 12px;
+    border: 1px solid green;
+    border-radius: 100px;
+    font-size: 12px;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #52525b;
+    padding: 7px 14px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.Navbar a:hover {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border-radius: 10px;
+}
+
+.Navbar a.active {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border-radius: 10px;
+}
