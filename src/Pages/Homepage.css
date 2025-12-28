@@ -1,0 +1,20 @@
+.HomepageRightsec {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.HomepageRightsec span {
+    color: gray;
+}
+
+.HomepageRightsec h5 {
+    color: gray;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.HomepageRightsec h4{
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
