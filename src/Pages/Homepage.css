@@ -18,6 +18,10 @@
     line-height: 3.7rem;
 }
 
+.HomepageRightsec .typed-text {
+    color: white;
+}
+
 .HomepageRightsec h5 {
     color: gray;
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -65,7 +69,7 @@
     width: 150px;
 }
 
-.Myworkbutton:hover{
+.Myworkbutton:hover {
     background-color: rgb(21, 21, 21);
 }
 
@@ -77,4 +81,17 @@
     height: 350px;
     border-radius: 20px;
     margin-top: 70px;
+}
+
+.Homesocialmedia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Homesocialmedia a {
+    font-size: 25px;
+    color: gray;
+    display: flex;
+    align-items: center;
 }
