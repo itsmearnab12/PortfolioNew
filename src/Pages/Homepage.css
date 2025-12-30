@@ -125,3 +125,12 @@
     color: gray;
     margin: 30px 150px;
 }
+
+.Aboutpage a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: gray;
+    gap: 10px;
+}

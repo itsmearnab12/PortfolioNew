@@ -1,0 +1,12 @@
+.Projectpage h5{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: gray;
+}
+.Projectpage h2{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
