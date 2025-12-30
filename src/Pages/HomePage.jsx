@@ -39,8 +39,9 @@ export function HomePage() {
                     <img src={Profile} alt="Profile" />
                 </div>
             </div>
-            {/* <div className="Aboutpage">
+            <div className="Aboutpage">
                 <h5 className="AboutTilte">- A Bit About Me</h5>
+                <h2>Change My idea to relaity</h2>
                 <h4 className="AboutMyself">
                     Hi, I’m a third-year student at Parul University, pursuing my Bachelor of Computer Applications. I have a strong interest in development and data, and I believe in learning by building, problem-solving, and creating solutions for real-world challenges.
                     Currently, I’m strengthening my development skills by building projects using React.js, Express.js, and Node.js, while also solidifying my core foundation in data analytics.
@@ -48,7 +49,7 @@ export function HomePage() {
                 <div>
                     <a href="">Know more about me <FaArrowRightLong /> </a>
                 </div>
-            </div> */}
+            </div>
         </>
-    );
+    ); 
 }
