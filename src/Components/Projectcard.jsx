@@ -1,6 +1,6 @@
 import "./Projectcard.css"
-export function Projectcard({Title, Discription, Tech, Livelink, Github}) {
-    return(
+export function Projectcard({ Title, Discription, Tech, Livelink, Github }) {
+    return (
         <>
             <div className="Project-card">
                 <h3>{Title}</h3>

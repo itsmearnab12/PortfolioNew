@@ -1,6 +1,8 @@
-.Project-card{
+.Project-card {
     border: 1px solid gray;
-    max-width: 35vw;
+    max-width: 30vw;
     height: 300px;
-    margin: 30px 150px;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
 }

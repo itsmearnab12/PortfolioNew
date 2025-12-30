@@ -1,14 +1,16 @@
 .Projectpage {
-    margin: 70px 150px;
+    margin: 70px 200px;
 }
-.Projectpage h5{
+
+.Projectpage h5 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     color: gray;
     font-size: 15px;
     font-weight: 100;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
-.Projectpage h2{
+
+.Projectpage h2 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     justify-content: center;
@@ -17,13 +19,17 @@
     margin: 20px 0;
 }
 
-.Projectpage h4{
+.Projectpage h4 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Project{
+.Project {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 30px 80px;
 }
