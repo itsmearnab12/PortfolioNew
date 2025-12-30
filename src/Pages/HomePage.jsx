@@ -11,7 +11,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 
 export function HomePage() {
 
-const navigate = useNavigate();
+    const navigate = useNavigate();
 
     return (
         <>
@@ -39,6 +39,16 @@ const navigate = useNavigate();
                     <img src={Profile} alt="Profile" />
                 </div>
             </div>
+            {/* <div className="Aboutpage">
+                <h5 className="AboutTilte">- A Bit About Me</h5>
+                <h4 className="AboutMyself">
+                    Hi, I’m a third-year student at Parul University, pursuing my Bachelor of Computer Applications. I have a strong interest in development and data, and I believe in learning by building, problem-solving, and creating solutions for real-world challenges.
+                    Currently, I’m strengthening my development skills by building projects using React.js, Express.js, and Node.js, while also solidifying my core foundation in data analytics.
+                </h4>
+                <div>
+                    <a href="">Know more about me <FaArrowRightLong /> </a>
+                </div>
+            </div> */}
         </>
     );
 }
