@@ -41,7 +41,7 @@ export function HomePage() {
                 </div>
             </div>
             <div className="Aboutpage">
-                <h5 className="AboutTilte">- A Bit About Me</h5>
+                <h5 className="AboutTilte">- About Me</h5>
                 <h2>Change My idea to relaity</h2>
                 <h4 className="AboutMyself">
                     Hi, I’m a third-year student at Parul University, pursuing my Bachelor of Computer Applications. I have a strong interest in development and data, and I believe in learning by building, problem-solving, and creating solutions for real-world challenges.
@@ -51,8 +51,9 @@ export function HomePage() {
                     <a href="">Know more about me <FaArrowRightLong /> </a>
                 </div>
             </div>
-            <div className="Projectpage">
-
+            <div className="projectpage">
+                <h5>-My Projects</h5>
+                <h2>Code. Build. Improve.</h2>
             </div>
             <div>
                 <Techstack />

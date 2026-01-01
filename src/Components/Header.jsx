@@ -13,7 +13,6 @@ export function Header() {
                 <NavLink className="link" to="/Experience">Experience</NavLink>
                 <NavLink className="link" to="/Certificate">Certificate</NavLink>
                 <NavLink className="link" to="/Contact">Contact</NavLink>
-                <span> • Available</span>
             </div>
         </header>
 

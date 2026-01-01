@@ -31,17 +31,6 @@
     font-weight: 500;
 }
 
-.RightNavbar span {
-    display: inline-flex;
-    align-items: center;
-    color: #22c55e;
-    background-color: #22c55e1a;
-    padding: 5px 12px;
-    border: 1px solid green;
-    border-radius: 100px;
-    font-size: 12px;
-}
-
 .Navbar a {
     text-decoration: none;
     color: #52525b;

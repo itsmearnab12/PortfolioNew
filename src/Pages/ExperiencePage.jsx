@@ -1,7 +1,9 @@
+import { Techstack } from "../Components/Techstack";
+
 export function ExperiencePage(){
     return(
         <>
-            Experience Page
+            <Techstack />
         </>
     );
 }

@@ -134,3 +134,24 @@
     color: gray;
     gap: 10px;
 }
+
+/* Project Section */
+.projectpage h5{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectpage h2{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 20px;
+    font-size: 2rem; 
+}
