@@ -18,7 +18,6 @@
 
 .HomepageRightsec {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    margin-top: 6vh;
 }
 
 .HomepageRightsec span {
@@ -205,6 +204,7 @@
 }
 
 .stats-section {
+    margin: 40px 400px 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
