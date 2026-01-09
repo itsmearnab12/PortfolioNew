@@ -20,7 +20,7 @@ export function AboutPage() {
 
                 <div className="Aboutme">
                     <h3>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fugit eveniet commodi nobis libero nam eligendi nulla laborum. Illo corporis ab quibusdam laudantium velit vel, eaque porro repellat asperiores, voluptatibus perferendis natus ad. Cumque molestiae eveniet id doloribus, eaque expedita facilis iusto, ea amet qui possimus maiores fuga. Sunt at praesentium dolore, odit quidem est.
+                        Additionally, I’m a data enthusiast. I’ve always been curious about how massive volumes of data are managed, what technologies power them, and how organizations turn complex data into accurate, data-driven decisions. This curiosity led me to actively explore how data is collected, processed, analyzed, and visualized using modern tools and technologies. I’m the kind of person who, whenever I encounter something interesting, feels a strong urge to understand how it works and to learn it deeply.
                     </h3>
                 </div>
                 <h5>-Why me?</h5>

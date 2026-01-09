@@ -67,7 +67,7 @@ export function HomePage() {
                     Currently, I’m strengthening my development skills by building projects using React.js, Express.js, and Node.js, while also solidifying my core foundation in data analytics.
                 </h4>
                 <div>
-                    <a href="">Know more about me <FaArrowRightLong /> </a>
+                    <a href="/About">Know more about me <FaArrowRightLong /> </a>
                 </div>
             </section>
             <section className="section tech-section">
@@ -110,6 +110,7 @@ export function HomePage() {
                         Github="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
                     />
                 </div>
+                <a href="/Project">Veiw My all Projects <FaArrowRightLong /></a>
             </section>
         </>
     );
