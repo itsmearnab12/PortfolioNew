@@ -168,7 +168,7 @@
 /* Project Section */
 .projectpage.section {
     padding-top: 45px;
-    padding-bottom: 110px;
+    padding-bottom: 150px;
 }
 
 .projectpage {
@@ -195,14 +195,6 @@
     font-size: 2rem;
 }
 
-.project-cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
 .projectpage a {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
@@ -213,6 +205,13 @@
     gap: 10px;
 }
 
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    justify-content: center;
+    margin: 30px 20px;
+}
 
 .stats-section {
     margin: 40px 400px 0 0;
@@ -240,4 +239,41 @@
 .stat-box p {
     font-size: 15px;
     color: #9ca3af;
+}
+
+.Whyhiremepage h5 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
+    color: gray;
+}
+
+.Whyhiremepage h2 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.Whyhiremepage h3 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.why-me-content {
+    margin: 40px;
+}
+
+.why-me-content h3 {
+    margin-top: 20px;
+}
+
+.AboutIntro span {
+    color: rgb(117, 117, 222);
+}
+
+.Whyhiremepage.section {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin: 0 170px;
 }

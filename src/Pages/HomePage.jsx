@@ -1,6 +1,7 @@
 import "./Homepage.css"
 import Profile from "../assets/Profile.jpeg";
 import Hero from "../Components/Hero";
+import { ProjectCard } from "/src/Components/Projectcard.jsx"
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -9,7 +10,8 @@ import { FiMail } from "react-icons/fi";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { Techstack } from "../Components/Techstack";
-import { Projectcard } from "../Components/Projectcard";
+import { HiMiniArrowTurnDownRight } from "react-icons/hi2";
+
 
 export function HomePage() {
 
@@ -78,39 +80,57 @@ export function HomePage() {
                 <h2>Code. Build. Improve.</h2>
 
                 <div className="project-cards">
-                    <Projectcard
-                        Title="Chatapp"
-                        Development="FULLSTACK"
-                        Discription="A real-time chat application that allows users to communicate instantly, focusing on performance, usability, and a responsive design."
-                        Tech="React.js Express.js Node.js Tailwind Css Socket.io"
-                        Livelink="https://chat-app-wine-seven-52.vercel.app/"
-                        Github="https://github.com/itsmearnab12/Chatapp"
+                    <ProjectCard
+                        title="CHAT APP"
+                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
+                        tech={["React", "Tailwind", "Node.js", "Express.js", "Socket.io"]}
+                        live="https://lnkd.in/g4KUKk9d"
+                        github="https://lnkd.in/gyG5H5mK"
                     />
-                    <Projectcard
-                        Title="News Website"
-                        Development="FULLSTACK"
-                        Discription="A dynamic news platform built to fetch and display real-time news with a modern and user-friendly interface."
-                        Tech="HTML Express.js Node.JS CSS News.io"
-                        Livelink="https://chat-app-wine-seven-52.vercel.app/"
-                        Github="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
+                    <ProjectCard
+                        title="Quick NEWS"
+                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
+                        tech={["Html", "Css", "JavaScript", "Node.js", "Express.js"]}
+                        live="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
+                        github="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
                     />
-                    <Projectcard
-                        Title="Simple Portfolio website"
-                        Development="FRONTEND"
-                        Discription="A dynamic news platform built to fetch and display real-time news with a modern and user-friendly interface."
-                        Tech="HTML Express.js Node.JS CSS News.io"
-                        Livelink="https://itsmearnab12.github.io/Portfolio/"
-                        Github="https://github.com/itsmearnab12/Portfolio"
+                    <ProjectCard
+                        title="Simple Portfolio Website"
+                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
+                        tech={["HTML", "CSS"]}
+                        live="https://your-live-link.com"
+                        github="https://github.com/your-repo"
                     />
-                    <Projectcard
-                        Title="News Website"
-                        Discription="A dynamic news platform built to fetch and display real-time news with a modern and user-friendly interface."
-                        Tech="HTML Express.js Node.JS CSS News.io"
-                        Livelink="https://chat-app-wine-seven-52.vercel.app/"
-                        Github="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
+                    <ProjectCard
+                        title="Simple Portfolio Website"
+                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
+                        tech={["HTML", "CSS"]}
+                        live="https://your-live-link.com"
+                        github="https://github.com/your-repo"
                     />
                 </div>
                 <a href="/Project">Veiw My all Projects <FaArrowRightLong /></a>
+            </section>
+            <section className="section Whyhiremepage">
+                <h5>-Why me?</h5>
+                <h2>What I Bring to the Table</h2>
+                <div className="why-me-content">
+                    <div className="AboutIntro">
+                        <h3>
+                            <span><HiMiniArrowTurnDownRight /></span>I don’t just aim for working solutions—I focus on clean design, clear structure, and intuitive interactions. My goal is to deliver interfaces that feel polished, purposeful, and easy to use.
+                        </h3>
+                    </div>
+                    <div className="AboutIntro">
+                        <h3>
+                            <span><HiMiniArrowTurnDownRight /></span>I prioritize learning how things work before using tools or libraries, which allows me to write maintainable, scalable code and adapt quickly to new technologies across the full stack.
+                        </h3>
+                    </div>
+                    <div className="AboutIntro">
+                        <h3>
+                            <span><HiMiniArrowTurnDownRight /></span>I actively refine my projects by revisiting design decisions, optimizing performance, and improving clarity. This iterative mindset helps me deliver better results and grow consistently as a developer.
+                        </h3>
+                    </div>
+                </div>
             </section>
         </>
     );

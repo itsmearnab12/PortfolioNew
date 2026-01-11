@@ -1,35 +1,69 @@
-.Project-card {
-    min-height: 340px;
-    max-width: 270px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+.project-card {
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    max-width: 280px;
+    height: 300px;
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 15px;
-    border-radius: 10px;
-    background: rgba(20, 20, 20, 0.6);
-    backdrop-filter: blur(10px);
 }
 
-.Project-card a {
-    border: 1px solid white;
+.project-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid rgba(248, 248, 248, 0.633);
 }
 
-.Project-card h5 {
-    margin: 10px 0 10px 0;
+.project-card:hover h3{
+    color: rgb(181, 132, 226);
 }
 
-.Project-card p {
-    margin: 10px 0 10px 0;
-    color: gray;
+/* Title */
+.project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.card-links {
-    margin-top: auto;
+/* Description */
+.description {
+    color: #bdbdbd;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+/* Tech stack */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.tech-stack span {
+    background: rgba(76, 75, 75, 0.426);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-action{
+    margin-left: 20px;
     display: flex;
     gap: 10px;
-}
-.card-links a {
-    text-decoration: none;
-    color: gray;
-    padding: 5px;
-    border-radius: 10px;
 }
