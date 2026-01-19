@@ -19,24 +19,24 @@ export function ProjectPage() {
                     />
                     <ProjectCard
                         title="Quick NEWS"
-                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
+                        description="A responsive news website that presents the latest articles across multiple categories with a clean layout and easy navigation for a smooth reading experience."
                         tech={["Html", "Css", "JavaScript", "Node.js", "Express.js"]}
                         live="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
                         github="https://github.com/itsmearnab12/FullStackProjects/tree/main/Project%201"
                     />
                     <ProjectCard
-                        title="Simple Portfolio Website"
-                        description=" This Portfolio Website was created as my starting project to polish my HTML and CSS skills, focusing on structured layouts, responsive design, and clean visual presentation while showcasing my profile and work."
-                        tech={["HTML", "CSS"]}
-                        live="https://your-live-link.com"
-                        github="https://github.com/your-repo"
+                        title="Oak & Roast"
+                        description="A modern coffee shop website showcasing the brand story, menu, and contact details. Designed with a focus on visual aesthetics, smooth layout, and user-friendly navigation to create an engaging café experience online."
+                        tech={["React", "CSS"]}
+                        live="https://github.com/itsmearnab12/PROJECTS"
+                        github="https://github.com/itsmearnab12/PROJECTS"
                     />
                     <ProjectCard
-                        title="Simple Portfolio Website"
-                        description=" My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding."
-                        tech={["HTML", "CSS"]}
-                        live="https://your-live-link.com"
-                        github="https://github.com/your-repo"
+                        title="My Portfolio Website"
+                        description="A responsive portfolio website developed with React, featuring reusable components, smooth navigation, and a clean UI to present projects and professional details effectively."
+                        tech={["React", "CSS"]}
+                        live="https://github.com/itsmearnab12/Portfolio-new"
+                        github="https://github.com/itsmearnab12/Portfolio-new"
                     />
                 </div>
             </div>
