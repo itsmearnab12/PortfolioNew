@@ -21,30 +21,35 @@ const certificates = [
 
 const CertificateSlider = () => {
   const [index, setIndex] = useState(0);
-  const visibleCards = 3;
+  const visibleCards = 2;
+  const slidePercent = 100 / visibleCards;
 
   const next = () => {
     if (index < certificates.length - visibleCards) {
-      setIndex(index + 1);
+      setIndex((prev) => prev + 1);
     }
   };
 
   const prev = () => {
     if (index > 0) {
-      setIndex(index - 1);
+      setIndex((prev) => prev - 1);
     }
   };
 
   return (
     <div className="carousel-container">
-      <button className="nav-btn left" onClick={prev}>
+      <button
+        className="nav-btn left"
+        onClick={prev}
+        disabled={index === 0}
+      >
         &#10094;
       </button>
 
       <div className="carousel-viewport">
         <div
           className="carousel-track"
-          style={{ transform: `translateX(-${index * 33.33}%)` }}
+          style={{ transform: `translateX(-${index * slidePercent}%)` }}
         >
           {certificates.map((cert) => (
             <div className="carousel-card" key={cert.id}>
@@ -55,7 +60,11 @@ const CertificateSlider = () => {
         </div>
       </div>
 
-      <button className="nav-btn right" onClick={next}>
+      <button
+        className="nav-btn right"
+        onClick={next}
+        disabled={index >= certificates.length - visibleCards}
+      >
         &#10095;
       </button>
     </div>
