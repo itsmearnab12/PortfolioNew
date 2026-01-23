@@ -11,7 +11,7 @@
     margin-left: 150px;
 }
 
-.AboutPage h1{
+.AboutPage h1 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@
 .Aboutme {
     margin: 30px 150px;
 }
+
 .AboutPage h2 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
@@ -39,7 +40,7 @@
     font-size: 2rem;
 }
 
-.Resume{
+.Resume {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     color: black;
     display: inline-flex;
@@ -51,4 +52,36 @@
     cursor: pointer;
     border: none;
     margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+    .AboutPage {
+        margin: 60px 20px;
+    }
+
+    .AboutPage h5 {
+        text-align: left;
+        margin: 30px 10px;
+    }
+
+    .AboutPage h1 {
+        margin: 20px 10px;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .Aboutme{
+        margin: 10px 10px;
+    }
+
+    .AboutPage h2{
+        margin: 20px 10px;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .Resume {
+        margin: 10px 10px;
+        justify-content: center;
+    }
 }

@@ -50,3 +50,44 @@
     color: white;
     border-radius: 10px;
 }
+
+.Hamburger {
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .Hamburger {
+        display: block;
+    }
+
+    .Navbar{
+        width: calc(100% - 68px);
+    }
+
+    .RightNavbar {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgba(20, 20, 20, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 14px;
+
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+    }
+
+    .RightNavbar.active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+}
