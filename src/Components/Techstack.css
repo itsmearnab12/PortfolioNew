@@ -46,3 +46,12 @@
     font-weight: 100;
     color: gray;
 }
+
+@media (max-width: 768px) {
+    .Techstack {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 15px;
+    justify-content: center;
+}
+}
