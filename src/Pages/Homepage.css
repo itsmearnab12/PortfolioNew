@@ -12,8 +12,9 @@
 }
 
 .Homepage {
-    margin: 0 150px;
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .HomepageRightsec {
@@ -374,5 +375,12 @@
     100% {
         transform: scale(1);
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .Homepage {
+        display: flex;
+        flex-direction: column;
     }
 }

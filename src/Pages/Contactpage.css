@@ -25,14 +25,15 @@
     margin: 20px 300px;
 }
 
-.contactsection{
+.contactsection {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     margin-top: 50px;
 }
-.contactsection a{
+
+.contactsection a {
     color: white;
     background-color: gray;
     padding: 10px;
@@ -44,10 +45,47 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.35s ease-in-out,
-                box-shadow 0.35s ease-in-out,
-                background-color 0.35s ease-in-out;
+        box-shadow 0.35s ease-in-out,
+        background-color 0.35s ease-in-out;
 }
 
-.contactsection a:hover{
+.contactsection a:hover {
     transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+    .contactpage {
+        margin: 60px 20px;
+    }
+
+    .contactpage h5 {
+        text-align: left;
+        margin: 30px 10px;
+    }
+
+    .contactpage h2 {
+        margin: 20px 10px;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .contactpage h4 {
+        margin: 30px 10px;
+        text-align: left;
+    }
+
+    .contactsection {
+        margin: 30px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .contactsection a {
+        font-size: 1.4rem;
+        width: 30px;
+        height: 30px;
+    }
 }
