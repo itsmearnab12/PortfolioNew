@@ -275,18 +275,18 @@
 
 .Whyhiremepage.section {
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     margin: 0 170px;
 }
 
 .Contactpage.section {
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 }
 
 .Contactpage h2 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -481,9 +481,10 @@
 
     /* ---------- Projects ---------- */
     .projectpage {
-        margin: 100px 0;
+        margin: 0;
     }
-    .projectpage h2{
+
+    .projectpage h2 {
         font-size: 1.4rem;
     }
 
@@ -495,12 +496,12 @@
 
     /* ---------- Why Me ---------- */
     .Whyhiremepage.section {
-        margin: 100px 0;
+        margin: 0;
         padding-bottom: 100px;
         text-align: center;
     }
 
-    .Whyhiremepage h2{
+    .Whyhiremepage h2 {
         font-size: 1.5rem;
     }
 
@@ -519,12 +520,25 @@
         font-size: 16px;
     }
 
-    .Buttons {
-        flex-direction: column;
+    .Buttons button {
+        padding: 12px 12px;
+        font-size: 12px;
     }
 
-    .Buttons button {
+    .btn {
         width: 100%;
-        max-width: 220px;
+        text-align: center;
+    }
+
+    .btn span {
+        white-space: nowrap;
+    }
+
+    .Working-status{
+        font-size: 12px;
+    }
+
+    .Contactpage.section{
+        padding-bottom: 150px;
     }
 }
