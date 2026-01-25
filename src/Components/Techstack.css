@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.Teachicon{
+.Teachicon {
     font-size: 30px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 10px;
@@ -21,7 +21,7 @@
     transition: all 0.25s ease;
 }
 
-.Teachicon span{
+.Teachicon span {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 300;
     font-size: 11px;
@@ -33,13 +33,15 @@
     border-color: rgba(255, 255, 255, 0.35);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
-.TollsandTech h2{
+
+.TollsandTech h2 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     text-align: center;
     margin: 40px;
     font-weight: 600;
 }
-.TollsandTech h5{
+
+.TollsandTech h5 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     text-align: center;
     margin: 30px 0;
@@ -49,9 +51,28 @@
 
 @media (max-width: 768px) {
     .Techstack {
-    display: grid;
-    grid-template-columns: repeat(4, 80px);
-    gap: 15px;
-    justify-content: center;
-}
+        display: grid;
+        grid-template-columns: repeat(3, 75px);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .Teachicon {
+        font-size: 30px;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .TollsandTech> :nth-child(2) {
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+
+    .TollsandTech> :nth-child(3) {
+        color: gray;
+        font-size: 15px;
+        margin: 20px 10px;
+        font-weight: 300;
+    }
 }
