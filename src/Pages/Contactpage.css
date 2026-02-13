@@ -53,7 +53,7 @@
     transform: scale(1.15);
 }
 
-.contactform form{
+.contactform form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@
     margin: 0 350px;
 }
 
-.contact-required{
+.contact-required {
     width: 400px;
     height: 40px;
     border: none;
@@ -73,22 +73,33 @@
     border-radius: 50px;
 }
 
-.contactform textarea{
+.contactform textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
 
-.contact-required:focus{
+.contact-required:focus {
     border: 2px solid gray;
 }
 
 .contactform input,
 textarea {
-  background-color: #1e1e1e;   
-  color: white;                
-  border: 1px solid #333;
-  resize: none;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+    resize: none;
+}
+
+.contactform button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    color: gray;
+    border: 1px solid #333;
 }
 
 
