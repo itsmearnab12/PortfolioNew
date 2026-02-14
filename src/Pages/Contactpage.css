@@ -1,5 +1,5 @@
 .contactpage {
-    margin: 50px 150px;
+    margin: 20px 150px;
 }
 
 .contactpage h5 {
@@ -22,7 +22,7 @@
     font-weight: 300;
     color: gray;
     text-align: center;
-    margin: 20px 300px;
+    margin: 20px 300px 50px 300px;
 }
 
 .contactsection {
@@ -33,14 +33,19 @@
     margin-top: 50px;
 }
 
+.ContactSocialmedia h3{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.5rem;
+}
+
 .contactsection a {
     color: white;
     background-color: gray;
     padding: 10px;
     font-size: 35px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,10 +61,12 @@
 .contactform form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
-    margin: 0 350px;
+}
+
+.contactform{
+    border-right: 1px solid rgb(113, 106, 106);
+    padding: 0 100px;
 }
 
 .contact-required {
@@ -102,6 +109,16 @@ textarea {
     border: 1px solid #333;
 }
 
+.Contactarea{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.ContactSocialmedia{
+    display: flex;
+    flex-direction: column;
+}
 
 @media (max-width: 768px) {
     .contactpage {
