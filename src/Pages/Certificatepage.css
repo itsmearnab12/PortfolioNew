@@ -1,3 +1,13 @@
+.Certificatepage h2{
+    margin: 30px 50px;
+    font-size: 18px;
+}
+.Certificatepage h2{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
 .Cert-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));

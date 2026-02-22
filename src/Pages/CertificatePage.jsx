@@ -77,7 +77,7 @@ export function CertificatePage() {
   return (
     <>
       <div className="Certificatepage">
-        <h3>-My Certificates</h3>
+        <h2>-My Certificates</h2>
         <div className="Cert-grid">
           {CertficateData.map((cert) => (
             <div className="Cert-card">
