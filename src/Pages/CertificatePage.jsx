@@ -76,35 +76,35 @@ const CertficateData = [
 export function CertificatePage() {
   return (
     <>
-      <div>
+      <div className="Certificatepage">
         <h3>-My Certificates</h3>
-      </div>
-      <div className="Cert-grid">
-        {CertficateData.map((cert) => (
-          <div className="Cert-card">
-            <div key={cert.id} className="certsecone">
-              <div className="certimage">
-                <img src={cert.image} alt="" className="certimage" />
+        <div className="Cert-grid">
+          {CertficateData.map((cert) => (
+            <div className="Cert-card">
+              <div key={cert.id} className="certsecone">
+                <div className="certimage">
+                  <img src={cert.image} alt="" className="certimage" />
+                </div>
+                <div className="certsectwo">
+                  <h3>{cert.title}</h3>
+                  <h4>{cert.issuer}</h4>
+                  <h4>{cert.issueDate}</h4>
+                </div>
               </div>
-              <div className="certsectwo">
-                <h3>{cert.title}</h3>
-                <h4>{cert.issuer}</h4>
-                <h4>{cert.issueDate}</h4>
+              <div className="certsecthree">
+                <h4>{cert.description}</h4>
+                <div className="skills">
+                  {cert.skills.map((skill, index) => (
+                    <span key={index} className="skill-badge">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+                <a href={cert.link} target="_blank" className="CertBtn">Veiw Certificate</a>
               </div>
             </div>
-            <div className="certsecthree">
-              <h4>{cert.description}</h4>
-              <div className="skills">
-                {cert.skills.map((skill, index) => (
-                  <span key={index} className="skill-badge">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-              <a href={cert.link} target="_blank"className="CertBtn">Veiw Certificate</a>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   )
