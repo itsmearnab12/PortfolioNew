@@ -14,7 +14,7 @@
 }
 
 .Cert-grid h3,
-h4 {
+.Cert-grid h4 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 300;
     color: #bdbdbd;
@@ -24,6 +24,14 @@ h4 {
 .certsectwo h3 {
     font-size: 25px;
     font-weight: 700;
+}
+
+.certsectwo h3,
+.certsectwo h4 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
 }
 
 .Cert-card {
@@ -97,7 +105,7 @@ h4 {
         margin: 20px 0;
     }
 
-    .Certificatepage h2{
+    .Certificatepage h2 {
         margin: 30px 10px;
     }
 

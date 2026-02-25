@@ -1,4 +1,6 @@
 import "./Certificatepage.css"
+import { FaCertificate } from "react-icons/fa";
+import { CiCalendar } from "react-icons/ci";
 import cert1 from "../assets/Certificate 1_page-0001.jpg"
 import cert2 from "../assets/Certificate 2_page-0001.jpg"
 import cert3 from "../assets/Certificate 3_page-0001.jpg"
@@ -95,8 +97,8 @@ export function CertificatePage() {
 
                 <div className="certsectwo">
                   <h3>{cert.title}</h3>
-                  <h4>{cert.issuer}</h4>
-                  <h4>{cert.issueDate}</h4>
+                  <h4><FaCertificate />{cert.issuer}</h4>
+                  <h4><CiCalendar />{cert.issueDate}</h4>
                 </div>
               </div>
 

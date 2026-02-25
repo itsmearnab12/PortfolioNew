@@ -432,6 +432,7 @@
     .Button button {
         width: 100%;
         max-width: 130px;
+        border: none
     }
 
     .Homesocialmedia {
@@ -534,6 +535,7 @@
     .Buttons button {
         padding: 12px 12px;
         font-size: 12px;
+        border: none
     }
 
     .btn {
