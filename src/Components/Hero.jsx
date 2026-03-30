@@ -6,7 +6,7 @@ function Hero() {
 
   useEffect(() => {
     const typed = new Typed(textRef.current, {
-      strings: ["Frontend Developer", "Data Analyst"],
+      strings: ["Full-stack Developer", "Data Analyst"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1500,
