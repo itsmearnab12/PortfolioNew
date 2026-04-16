@@ -1,6 +1,6 @@
 import { Experiencecard } from "../Components/Experiencecard";
 import { Techstack } from "../Components/Techstack";
-import Compylogo from "../assets/Compylogo.png"
+import Compylogo from "../assets/compylogo.png"
 import "./Experiencepage.css"
 
 export function ExperiencePage() {
