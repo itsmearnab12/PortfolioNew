@@ -3,9 +3,8 @@ export function Techstack() {
     return (
         <>
             <div className="TollsandTech">
-                <h5>- My Skills & Technologies</h5>
-                <h2>Technologies & Skills</h2>
-                <h2>A versatile stack for building scalable applications and data-driven solutions.</h2>
+                <h5>- Tech Stack</h5>
+                <h3>Tools & Technologies I work with</h3>
                 <div className="Techstack">
                     <div className="Teachicon">
                         <i class="devicon-react-original colored"></i>

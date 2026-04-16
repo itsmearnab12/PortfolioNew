@@ -70,7 +70,7 @@ export function HomePage() {
                     Currently, I’m strengthening my development skills by building projects using React.js, Express.js, and Node.js, while also solidifying my core foundation in data analytics.
                 </h4>
                 <div>
-                    <a href="/About">Know more about me <FaArrowRightLong /> </a>
+                    <a href="/About">Know more about me <FaArrowRightLong /></a>
                 </div>
             </section>
             <section className="section tech-section">
@@ -110,7 +110,7 @@ export function HomePage() {
                         github="https://github.com/itsmearnab12/Portfolio-new"
                     />
                 </div>
-                <a href="/Project">Veiw My all Projects <FaArrowRightLong /></a>
+                <a href="/Project">View My all Projects <FaArrowRightLong /></a>
             </section>
             <section className="section Whyhiremepage">
                 <h5>-Why me?</h5>
