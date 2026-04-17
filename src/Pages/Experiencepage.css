@@ -47,10 +47,10 @@
 
 @media (max-width: 768px) {
     .experience::before{
-        left: 35px;
+        left: 25px;
     }
 
     .timeline-item::before{
-        left: 30px;
+        left: 20px;
     }
 }
