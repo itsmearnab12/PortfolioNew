@@ -1,8 +1,8 @@
-.Experiencepage{
+.Experiencepage {
     margin-top: 100px;
 }
 
-.experience{
+.experience {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,21 @@
     gap: 50px;
 }
 
-.techstack{
+.Experiencepage h5 {
+    color: gray;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.Experiencepage h2 {
+    margin: 10px;
+}
+.exphead{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.techstack {
     margin-bottom: 150px;
 }
 
@@ -37,20 +51,28 @@
     content: "";
     position: absolute;
     left: 275px;
-    top: 5px; 
+    top: 5px;
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background: #111;
-    border: 3px solid gray 
+    border: 3px solid gray
 }
 
 @media (max-width: 768px) {
-    .experience::before{
+    .experience::before {
         left: 25px;
     }
 
-    .timeline-item::before{
+    .timeline-item::before {
         left: 20px;
+    }
+
+    .exphead{
+        margin: 40px 20px;
+    }
+
+    .exphead h2{
+        font-size: 2.2rem;
     }
 }

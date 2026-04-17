@@ -7,6 +7,10 @@ export function ExperiencePage() {
     return (
         <>
             <div className="Experiencepage">
+                <div className="exphead">
+                    <h5>- Experience</h5>
+                    <h2>My Work Experience</h2>
+                </div>
                 <div className="timeline-item">
                     <div className="experience">
                         <Experiencecard
