@@ -69,8 +69,10 @@ export function HomePage() {
                     Hi, I’m a third-year student at Parul University, pursuing my Bachelor of Computer Applications. I have a strong interest in development and data, and I believe in learning by building, problem-solving, and creating solutions for real-world challenges.
                     Currently, I’m strengthening my development skills by building projects using React.js, Express.js, and Node.js, while also solidifying my core foundation in data analytics.
                 </h4>
-                <div>
-                    <a href="/About">Know more about me <FaArrowRightLong /></a>
+                <div className="btn-container">
+                    <button onClick={() => navigate("/About")} className="About-btn">
+                        Know more about me <FaArrowRightLong />
+                    </button>
                 </div>
             </section>
             <section className="section tech-section">
@@ -110,7 +112,11 @@ export function HomePage() {
                         github="https://github.com/itsmearnab12/Portfolio-new"
                     />
                 </div>
-                <a href="/Project">View My all Projects <FaArrowRightLong /></a>
+                <div className="btn-container">
+                    <button onClick={() => navigate("/Project")} className="Project-btn">
+                        Know more about me <FaArrowRightLong />
+                    </button>
+                </div>
             </section>
             <section className="section Whyhiremepage">
                 <h5>-Why me?</h5>

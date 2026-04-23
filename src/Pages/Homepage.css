@@ -150,14 +150,23 @@
     font-size: 16px;
 }
 
-.Aboutpage a {
+.About-btn {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: none;
+    color: rgb(117, 117, 222);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: rgb(117, 117, 222);
-    gap: 10px;
+    margin-top: 20px;
 }
 
 /* Techstack section */
@@ -200,14 +209,17 @@
     font-size: 2rem;
 }
 
-.projectpage a {
+.Project-btn {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+    background: none;
     color: rgb(117, 117, 222);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .project-cards {
@@ -464,9 +476,10 @@
     }
 
     /* ---------- About Section ---------- */
-    .AboutTilte{
+    .AboutTilte {
         font-size: 18px;
     }
+
     .Aboutpage {
         margin: 90px 0;
         text-align: center;
@@ -482,7 +495,7 @@
         line-height: 1.2;
     }
 
-    .Aboutpage a{
+    .Aboutpage a {
         font-size: 18px;
     }
 
@@ -548,11 +561,11 @@
         white-space: nowrap;
     }
 
-    .Working-status{
+    .Working-status {
         font-size: 12px;
     }
 
-    .Contactpage.section{
+    .Contactpage.section {
         padding-bottom: 150px;
     }
 }
