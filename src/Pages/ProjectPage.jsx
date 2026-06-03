@@ -11,6 +11,13 @@ export function ProjectPage() {
             <div className="Project">
                 <div className="projects-grid">
                     <ProjectCard
+                        title="FinSet | Personal Finance Tracker"
+                        description="FinSet is a personal finance management application that enables users to track income, expenses, and savings efficiently. It provides budgeting tools and financial insights to help users manage their money and achieve their financial goals."
+                        tech={["React", "CSS", "Node.js", "Express.js", "Recharts"]}
+                        live="https://github.com/itsmearnab12/PROJECTS/tree/main/Finance%20Tracker%20Application"
+                        github="https://github.com/itsmearnab12/PROJECTS/tree/main/Finance%20Tracker%20Application"
+                    />
+                    <ProjectCard
                         title="CHAT APP"
                         description="This Chat Application Website enabling real-time communication through a clean and responsive interface."
                         tech={["React", "Tailwind", "Node.js", "Express.js", "Socket.io"]}

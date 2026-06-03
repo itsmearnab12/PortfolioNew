@@ -84,6 +84,13 @@ export function HomePage() {
 
                 <div className="project-cards">
                     <ProjectCard
+                        title="FinSet | Personal Finance Tracker"
+                        description="FinSet is a personal finance management application that enables users to track income, expenses, and savings efficiently. It provides budgeting tools and financial insights to help users manage their money and achieve their financial goals."
+                        tech={["React", "CSS", "Node.js", "Express.js", "Recharts"]}
+                        live="https://github.com/itsmearnab12/PROJECTS/tree/main/Finance%20Tracker%20Application"
+                        github="https://github.com/itsmearnab12/PROJECTS/tree/main/Finance%20Tracker%20Application"
+                    />
+                    <ProjectCard
                         title="CHAT APP"
                         description="This Chat Application Website enabling real-time communication through a clean and responsive interface."
                         tech={["React", "Tailwind", "Node.js", "Express.js", "Socket.io"]}
@@ -103,13 +110,6 @@ export function HomePage() {
                         tech={["React", "CSS"]}
                         live="https://github.com/itsmearnab12/PROJECTS"
                         github="https://github.com/itsmearnab12/PROJECTS"
-                    />
-                    <ProjectCard
-                        title="My Portfolio Website"
-                        description="A responsive portfolio website developed with React, featuring reusable components, smooth navigation, and a clean UI to present projects and professional details effectively."
-                        tech={["React", "CSS"]}
-                        live="https://github.com/itsmearnab12/Portfolio-new"
-                        github="https://github.com/itsmearnab12/Portfolio-new"
                     />
                 </div>
                 <div className="btn-container">
