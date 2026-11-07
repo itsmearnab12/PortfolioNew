@@ -51,6 +51,10 @@ export function Techstack() {
                         <span>Postman</span>
                     </div>
                     <div className="Teachicon">
+                        <i class="devicon-docker-plain colored"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div className="Teachicon">
                         <i class="devicon-vercel-original colored"></i>
                         <span>Vercel</span>
                     </div>
