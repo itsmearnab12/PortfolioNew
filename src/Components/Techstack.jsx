@@ -7,12 +7,16 @@ export function Techstack() {
                 <h3>Tools & Technologies I work with</h3>
                 <div className="Techstack">
                     <div className="Teachicon">
-                        <i class="devicon-react-original colored"></i>
-                        <span>React</span>
-                    </div>
-                    <div className="Teachicon">
                         <i class="devicon-javascript-plain colored"></i>
                         <span>Javascript</span>
+                    </div>
+                    <div className="Teachicon">
+                        <i class="devicon-typescript-plain colored"></i>
+                        <span>TypeScript</span>
+                    </div>
+                    <div className="Teachicon">
+                        <i class="devicon-react-original colored"></i>
+                        <span>React</span>
                     </div>
                     <div className="Teachicon">
                         <i class="devicon-java-plain colored"></i>
