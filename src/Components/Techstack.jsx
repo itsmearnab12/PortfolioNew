@@ -70,6 +70,10 @@ export function Techstack() {
                         <i class="devicon-git-plain colored"></i>
                         <span>Git</span>
                     </div>
+                    <div className="Teachicon">
+                        <i class="devicon-github-original colored"></i>
+                        <span>Github</span>
+                    </div>
 
                 </div>
             </div>
