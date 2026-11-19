@@ -75,7 +75,7 @@ export function Techstack() {
                         <span>Github</span>
                     </div>
                     <div className="Teachicon">
-                        <i class="devicon-linux-plain colored"></i>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
                         <span>linux</span>
                     </div>
 
